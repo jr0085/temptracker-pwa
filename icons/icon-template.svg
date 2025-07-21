@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#2563eb" rx="64" ry="64"/>
+  
+  <!-- Thermometer Icon -->
+  <g transform="translate(256,256)">
+    <!-- Thermometer Body -->
+    <rect x="-20" y="-120" width="40" height="160" fill="white" rx="20" ry="20"/>
+    
+    <!-- Thermometer Bulb -->
+    <circle cx="0" cy="60" r="35" fill="white"/>
+    
+    <!-- Temperature Liquid -->
+    <rect x="-12" y="-100" width="24" height="140" fill="#ef4444" rx="12" ry="12"/>
+    <circle cx="0" cy="60" r="25" fill="#ef4444"/>
+    
+    <!-- Temperature Markings -->
+    <g stroke="white" stroke-width="3" fill="none">
+      <line x1="25" y1="-80" x2="35" y2="-80"/>
+      <line x1="25" y1="-40" x2="35" y2="-40"/>
+      <line x1="25" y1="0" x2="35" y2="0"/>
+      <line x1="25" y1="40" x2="30" y2="40"/>
+      <line x1="25" y1="20" x2="30" y2="20"/>
+      <line x1="25" y1="-20" x2="30" y2="-20"/>
+      <line x1="25" y1="-60" x2="30" y2="-60"/>
+    </g>
+    
+    <!-- Logo Text -->
+    <text x="0" y="140" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="32" font-weight="bold">
+      TempTracker
+    </text>
+  </g>
+</svg>
